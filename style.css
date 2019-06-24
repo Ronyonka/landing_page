@@ -1,0 +1,127 @@
+body{
+    margin: 60px 100px 0px 100px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    /* background-color: hsl(214, 64%, 98%); */
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+/* #rectangle {
+    width: 700px;
+    height: 900px;
+  border-radius: 50px;
+    background-image: linear-gradient(to bottom right, hsl(322, 100%, 66%),  hsl(265, 100%, 66%));
+    background-repeat: no-repeat;
+    background-position: top;
+  position: absolute;
+  top:-300px;
+  right: -800px;
+  overflow-y:hidden;
+
+    -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  } */
+.home{
+    height: 100vh;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    height: 37px;
+    width: auto;
+}
+#mockup{
+    height: 500px;
+    width: auto;
+}
+.image{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.community{
+    margin-top: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn-pink{
+    background-color: hsl(322, 100%, 66%);
+    padding: 20px;
+    width:280px;
+    height: 50px;
+    border: none;
+    color: white;
+    border-radius: 3px;
+  /*   box-shadow: 0 4px 8px 0 hsl(322, 100%, 66%), 0 6px 20px 0 hsl(322, 100%, 66%); */
+}
+
+.btn-grey{
+background-color: hsl(214, 64%, 98%);
+padding: 10px;
+width:180px;
+height: 45px;
+border: none;
+color: black;
+border-radius: 3px;
+text-align: center;
+display: inline-block;
+/*   box-shadow: 0 4px 8px 0 hsl(322, 100%, 66%), 0 6px 20px 0 hsl(322, 100%, 66%); */
+}
+.body{
+    flex: 1;
+    justify-content: space-between;
+    display: flex;
+}
+.users{
+    flex:40%;
+}
+.body{
+    flex:40%;
+}
+.space-between{
+    flex: 20%;
+}
+#users{
+    height: 480px;
+    width: auto;
+}
+footer{
+    color: white;
+    margin-left: -100px;
+    margin-right: -100px;
+    margin-bottom: -20px;
+    padding: 40px;
+    background-color: hsl(192, 100%, 9%);
+}
+.container{
+    margin: 80px 100px 0px 100px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+#social,#form{
+    flex:30%;
+}
+#about, #contact{
+    flex:20%;
+}
+/* #social #contact #about #form{
+    flex-direction: column;
+} */
